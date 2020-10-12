@@ -1,7 +1,7 @@
-//WAP in CPP to add two complex no using the concept of structure
+//WAP in C to add two complex no using the concept of structure
 
-#include<iostream>
-using namespace std;
+#include<stdio.h>
+
 struct complex{
     int real;
     int imag;

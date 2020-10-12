@@ -3,8 +3,8 @@ WAP in C to display the name, address, marks and roll no of a student entered by
 of structure
 */
 
-#include<iostream>
-using namespace std;
+#include<stdio.h>
+
 struct student{
     char name[20];
     char add[20];
