@@ -4,10 +4,7 @@
 using namespace std;
 inline void greet_me(char* name,int n)
 {
-    for(int i=0;i<n;i++)
-    {
-        cout<<"Hello, "<< name <<" How are you?"<<endl;
-    }
+    cout<<"Hello, "<< name <<" How are you?"<<endl;
 }
 int main()
 {
@@ -17,6 +14,9 @@ int main()
     cin>>name;
     cout<<"how many times shall I greet you?"<<endl;
     cin>>n;
+    for(int i=0;i<n;i++)
+    {
     greet_me(name,n);
+    }
     return 0;
 }
