@@ -1,5 +1,3 @@
-//OOP Lab
-
 //Write a program in CPP to overload unary ++ for postfix and prefix increment operation on complex numbers using member function.
 
 #include<iostream>
