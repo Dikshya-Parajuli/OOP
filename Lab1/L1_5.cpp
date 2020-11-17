@@ -22,4 +22,5 @@ int main()
     cout<<area_of_rectangle(9)<<endl;
     cout<<"The area of rectangle with both of it's value overwritten ";
     cout<<area_of_rectangle(6,4)<<endl;
+    return 0;
 }
